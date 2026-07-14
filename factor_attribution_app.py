@@ -11,7 +11,7 @@ import statsmodels.api as sm
 # =========================
 
 BASE_DIR = os.path.dirname(__file__)
-CSV_DIR  = os.path.join(BASE_DIR, "Factor_Attribution_4_csvs")
+CSV_DIR  = os.path.join(BASE_DIR, "data")
 
 factor_tickers = [
     "SPY", "ACWI", "TLT", "HYG", "DBC", "EEM", "UUP", "TIP",
